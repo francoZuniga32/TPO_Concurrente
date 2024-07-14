@@ -21,21 +21,27 @@ public class PuestoAtencion {
         this.guardia = entrada.newCondition();
     }
 
-    public void hacerCheckIn()throws InterruptedException{
+    public void entrarPuestoAtencion()throws InterruptedException{
         entrada.lock();
         while(this.ocupados == this.lugares){
             //helper.ThreadMsg("Esperando a que se desocupe...");
             pasajeros.await();
         }
+        this.ocupados ++;
+        helper.ThreadMsg(" Esta esperando en la fila...");
+        entrada.unlock();
+    } 
+
+    public void hacerCheckIn()throws InterruptedException{
+        entrada.lock();
         helper.ThreadMsg("Realizando el check in...");
 
-        this.ocupados ++;
+        
         Thread.sleep(2000);
         
         this.guardia.signal();
-
         entrada.unlock();
-    } 
+    }
 
     public void dejarEntrar() throws InterruptedException{
         entrada.lock();
