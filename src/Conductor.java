@@ -8,7 +8,7 @@ public class Conductor implements Runnable{
     public void run(){
         try {
             while(true){
-                vagon.comenzarRecorrido();
+                vagon.conductor();
             }
         } catch (Exception e) {
             // TODO: handle exception

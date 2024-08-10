@@ -9,33 +9,38 @@ public class Boleteria {
     private int nroPasaje;
     private final Lock mutex = new ReentrantLock();
     private final Condition pasajeros;
-    private int hora;
+    private int horaAtencion;
+    private int cantidadTerminales;
+    private Reloj reloj;
 
-    public Boleteria(int cantidadAerolineas){
+    public Boleteria(int cantidadAerolineas, int cantidadTerminales, Reloj reloj){
         this.aerolineas = cantidadAerolineas;
+        this.cantidadTerminales = cantidadTerminales;
         this.random = new Random();
         this.pasajeros = mutex.newCondition();
-        this.hora = 7;
-    }
-
-    public void actualizarHora()throws InterruptedException{
-        mutex.lock();
-        this.hora = (this.hora + 1)%24;
-        pasajeros.signalAll();
-        helper.ThreadMsg("se actualizo la hora: "+hora+":00");
-        mutex.unlock();
+        this.horaAtencion = 7;
+        this.reloj = reloj;
     }
 
     public Pasaje obtenerBoleto()throws InterruptedException{
         mutex.lock();
-        while(this.hora <= 6 || this.hora >= 22){
-            helper.ThreadMsg("esta esperando a que abra el aeropuero. hora: "+hora+":00");
+        while(this.reloj.getHora()  <= 6 || this.reloj.getHora()  >= 22){
+            helper.ThreadMsg("esta esperando a que abra el aeropuero. hora: "+this.reloj.getHora()+":00");
             pasajeros.await();
         }
         int aerolineaRandom = this.random.nextInt(aerolineas);
-        Pasaje pasaje = new Pasaje(nroPasaje, aerolineaRandom);
+        int terminal = this.random.nextInt(0,this.cantidadTerminales);
+        int puertaEmbarque = this.random.nextInt(1, 10)*cantidadTerminales;
+        int hora = this.random.nextInt(12, 20);
+        Pasaje pasaje = new Pasaje(nroPasaje, aerolineaRandom, hora, puertaEmbarque, terminal);
         this.nroPasaje++;
         mutex.unlock();
         return pasaje;
+    }
+
+    public void notificarPasajeros(){
+        mutex.lock();
+        this.pasajeros.signalAll();
+        mutex.unlock();
     }
 }
