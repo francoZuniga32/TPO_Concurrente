@@ -42,7 +42,7 @@ public class App {
 
         //iniciamos los hilos de pasajeros y de guardias en los puestos de atencion
         for(int i=0; i < cantidadPasajeros; i++) {
-            hilos.add(new Thread(new Pasajero(boleteria, puestosAtencion, vagon, reloj, freeshops), "pasajero #"+i));
+            hilos.add(new Thread(new Pasajero(boleteria, puestosAtencion, vagon, reloj, freeshops ), "pasajero #"+i));
         }
 
         for(int j=0; j < puestosAtencion.length; j++){
