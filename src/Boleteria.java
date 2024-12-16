@@ -3,6 +3,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * la boleteria se encarga de asignar los pasajes de forma aleatoria entre los pasajeros
+ */
 public class Boleteria {
     private Random random;
     private int aerolineas;

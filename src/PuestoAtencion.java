@@ -5,7 +5,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 
 /**
- * este caso es similar a los productores consumidores y se tiene que diseñar de forma similar.
+ * los puestos de atencion es donde los pasajeros hacer check-in de los pasajes
+ * tiene una capacidad maxima de personas y un guardar es el encargado de dejar pasar a los pasajeros
  */
 public class PuestoAtencion {
     private int lugares;

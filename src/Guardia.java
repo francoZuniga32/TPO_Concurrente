@@ -1,3 +1,6 @@
+/**
+ * es el encargado de dejar entrar a las pasajeros a los puetos de atencion.
+ */
 public class Guardia implements Runnable{
     private PuestoAtencion puesto;
 

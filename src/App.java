@@ -38,7 +38,7 @@ public class App {
         
         Thread conductor = new Thread(new Conductor(vagon), "Conductor");
 
-        int cantidadPasajeros = 20;
+        int cantidadPasajeros = 40;
 
         //iniciamos los hilos de pasajeros y de guardias en los puestos de atencion
         for(int i=0; i < cantidadPasajeros; i++) {

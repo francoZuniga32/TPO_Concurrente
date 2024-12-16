@@ -1,6 +1,9 @@
 import java.util.Random;
 import java.util.concurrent.Semaphore;
-
+/**
+ * los freeshop se encuentran en las terminales en caso de que un pasajero tenga tiempo para comprar lo hara
+ * tiene una capacidad y 2 cajas para poder atender. en caso de que sean atendidos.
+ */
 public class FreeShop {
     private Semaphore capacidad;
     private Semaphore cajas;

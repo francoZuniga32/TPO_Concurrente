@@ -3,6 +3,10 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * toma una cantidad n de pasajeros
+ * Cuando va parando en cada terminal los pasajeros de la correpondiente terminal tienen que bajar.
+ */
 public class Vagon {
     private Lock mutex = new ReentrantLock();
     private Condition pasajeros;
@@ -88,7 +92,7 @@ public class Vagon {
             paradas[j] = false;
         }
         Thread.sleep(2000);
-        helper.ThreadMsg("paradas: "+this.paradas.toString()+" cantidad por paradas: "+this.pasajerosPorParada.toString());
+        helper.ThreadMsg("paradas: "+this.paradas.length+" ; cantidad por paradas: "+this.pasajerosPorParada.length);
         this.pasajeros.signalAll();
         this.mutex.unlock();
     }
