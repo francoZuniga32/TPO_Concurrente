@@ -5,8 +5,10 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Reloj{
     private int hora;
+    public static int MINUTO = 1;
+    public static int HORA = MINUTO*60;
 
-    synchronized public void actualizarHora(){
+    public synchronized void actualizarHora(){
         try{
             this.hora = (this.hora + 1)%24;
             helper.ThreadMsg(" hora: "+hora);
@@ -15,7 +17,7 @@ public class Reloj{
         }
     }
 
-    synchronized public int getHora(){
+    public synchronized int getHora(){
         return this.hora;
     }
 }

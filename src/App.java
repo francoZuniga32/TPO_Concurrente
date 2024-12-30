@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        
         System.out.println("Cuantas Aerolines operan en este aeropuerto:");
         int cantidadAerolineas = TecladoIn.readInt();
 
@@ -14,6 +15,7 @@ public class App {
         //creamos la boleteria
         Boleteria boleteria = new Boleteria(cantidadAerolineas, cantidadTerminales, reloj);
         
+
         //hilo reloj
         Thread relojHilo = new Thread(new RelojHilo(reloj, boleteria),"Reloj");
         
@@ -34,24 +36,22 @@ public class App {
 
         //creamos los hilos pasajeros, guardias
         ArrayList<Thread> hilos = new ArrayList<Thread>();
-        ArrayList<Thread> guardias = new ArrayList<Thread>();
+        Thread guardia = new Thread();
         
-        Thread conductor = new Thread(new Conductor(vagon), "Conductor");
+        Thread conductor = new Thread(new Conductor(vagon, cantidadTerminales), "Conductor");
 
-        int cantidadPasajeros = 40;
+        int cantidadPasajeros = 10;
 
         //iniciamos los hilos de pasajeros y de guardias en los puestos de atencion
         for(int i=0; i < cantidadPasajeros; i++) {
             hilos.add(new Thread(new Pasajero(boleteria, puestosAtencion, vagon, reloj, freeshops ), "pasajero #"+i));
         }
 
-        for(int j=0; j < puestosAtencion.length; j++){
-            guardias.add(new Thread(new Guardia(puestosAtencion[j]),"Guardia #"+j));
-        }
+        guardia = new Thread(new Guardia(puestosAtencion),"Guardia ");
 
         
         hilos.forEach(e -> e.start());
-        guardias.forEach(g -> g.start());
+        guardia.start();
         relojHilo.start();
         conductor.start();
     }

@@ -1,196 +1,415 @@
 Cuantas Aerolines operan en este aeropuerto:
-2
+3
 Cuantas terminales tienen el aeropuerto?:
 3
+pasajero #3 :  ingresando al aeropuerto...
+pasajero #0 :  ingresando al aeropuerto...
+Guardia  : esta penzando a trabajar...
+pasajero #2 :  ingresando al aeropuerto...
+pasajero #1 :  ingresando al aeropuerto...
+pasajero #8 :  ingresando al aeropuerto...
 Reloj :  hora: 1
-Guardia #1 : esta penzando a trabajar...
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 0:00
-Guardia #0 : esta penzando a trabajar...
-pasajero #1 : esta esperando a que abra el aeropuero. hora: 1:00
-Guardia #1 : Esperando...
-pasajero #2 : esta esperando a que abra el aeropuero. hora: 1:00
-Guardia #0 : Esperando...
+pasajero #6 :  ingresando al aeropuerto...
+pasajero #4 :  ingresando al aeropuerto...
+pasajero #5 :  ingresando al aeropuerto...
+pasajero #7 :  ingresando al aeropuerto...
+pasajero #9 :  ingresando al aeropuerto...
 pasajero #3 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #4 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #5 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #7 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #8 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #7 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #5 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #4 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #8 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #1 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #2 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #0 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #1 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #2 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #4 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #5 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #7 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #8 : esta esperando a que abra el aeropuero. hora: 1:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 1:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 1:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 1:00
 Reloj :  hora: 2
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #1 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #2 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #4 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #5 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #7 : esta esperando a que abra el aeropuero. hora: 2:00
 pasajero #8 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 2:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 2:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #7 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #5 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #4 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #0 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #2 : esta esperando a que abra el aeropuero. hora: 2:00
+pasajero #1 : esta esperando a que abra el aeropuero. hora: 2:00
 Reloj :  hora: 3
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 3:00
+pasajero #8 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #1 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #2 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 3:00
+pasajero #0 : esta esperando a que abra el aeropuero. hora: 3:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #4 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #5 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #7 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #8 : esta esperando a que abra el aeropuero. hora: 3:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 3:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 3:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 3:00
 Reloj :  hora: 4
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #1 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #2 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #4 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #5 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #7 : esta esperando a que abra el aeropuero. hora: 4:00
 pasajero #8 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 4:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 4:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #7 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #5 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #4 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #0 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #2 : esta esperando a que abra el aeropuero. hora: 4:00
+pasajero #1 : esta esperando a que abra el aeropuero. hora: 4:00
 Reloj :  hora: 5
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 5:00
+pasajero #8 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #1 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #2 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 5:00
+pasajero #0 : esta esperando a que abra el aeropuero. hora: 5:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #4 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #5 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #7 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #8 : esta esperando a que abra el aeropuero. hora: 5:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 5:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 5:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 5:00
 Reloj :  hora: 6
-pasajero #0 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #1 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #2 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #3 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #4 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #5 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #6 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #7 : esta esperando a que abra el aeropuero. hora: 6:00
 pasajero #8 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #3 : esta esperando a que abra el aeropuero. hora: 6:00
 pasajero #9 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #10 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #11 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #12 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #13 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #14 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #15 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #16 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #17 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #18 : esta esperando a que abra el aeropuero. hora: 6:00
-pasajero #19 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #7 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #5 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #4 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #6 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #0 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #2 : esta esperando a que abra el aeropuero. hora: 6:00
+pasajero #1 : esta esperando a que abra el aeropuero. hora: 6:00
 Reloj :  hora: 7
-pasajero #8 : Nro pasaje: #8 / aerolinea #0 / terminal 0 / puerta embarque 9
-pasajero #14 : Nro pasaje: #14 / aerolinea #1 / terminal 0 / puerta embarque 15
-pasajero #19 : Nro pasaje: #19 / aerolinea #1 / terminal 0 / puerta embarque 9
-pasajero #18 : Nro pasaje: #18 / aerolinea #0 / terminal 1 / puerta embarque 3
-pasajero #7 : Nro pasaje: #7 / aerolinea #1 / terminal 1 / puerta embarque 6
-pasajero #19 : Entrando al free shop de la terminal 0...
-pasajero #3 : Nro pasaje: #3 / aerolinea #1 / terminal 1 / puerta embarque 18
-pasajero #17 : Nro pasaje: #17 / aerolinea #1 / terminal 2 / puerta embarque 15
-pasajero #15 : Nro pasaje: #15 / aerolinea #0 / terminal 1 / puerta embarque 6
-pasajero #11 : Nro pasaje: #11 / aerolinea #1 / terminal 1 / puerta embarque 18
-pasajero #11 : saliendo del freeshop...
-pasajero #4 : Nro pasaje: #4 / aerolinea #0 / terminal 1 / puerta embarque 6
-pasajero #1 : Nro pasaje: #1 / aerolinea #0 / terminal 2 / puerta embarque 27
-pasajero #7 : Entrando al free shop de la terminal 1...
-pasajero #17 : Entrando al free shop de la terminal 2...
-pasajero #3 : Entrando al free shop de la terminal 1...
-pasajero #15 : saliendo del freeshop...
-pasajero #9 : Nro pasaje: #9 / aerolinea #0 / terminal 2 / puerta embarque 27
-pasajero #2 : Nro pasaje: #2 / aerolinea #1 / terminal 0 / puerta embarque 15
+pasajero #4 : Nro pasaje: #0     / aerolinea #1          / terminal 1    / puerta embarque 15
+pasajero #4 : Esperando a hacer check in...
+pasajero #4 : Esperando en la fila del puesto de atencion ...
+pasajero #6 : Nro pasaje: #0     / aerolinea #0          / terminal 2    / puerta embarque 15
+pasajero #6 : Esperando a hacer check in...
+pasajero #6 : Esperando en la fila del puesto de atencion ...
+pasajero #3 : Nro pasaje: #0     / aerolinea #2          / terminal 2    / puerta embarque 15
+pasajero #3 : Esperando a hacer check in...
+pasajero #0 : Nro pasaje: #0     / aerolinea #0          / terminal 1    / puerta embarque 21
+pasajero #2 : Nro pasaje: #0     / aerolinea #1          / terminal 0    / puerta embarque 18
+pasajero #5 : Nro pasaje: #0     / aerolinea #1          / terminal 0    / puerta embarque 24
+pasajero #7 : Nro pasaje: #0     / aerolinea #2          / terminal 0    / puerta embarque 24
+pasajero #8 : Nro pasaje: #0     / aerolinea #0          / terminal 1    / puerta embarque 21
+pasajero #3 : Esperando en la fila del puesto de atencion ...
+pasajero #0 : Esperando a hacer check in...
+pasajero #2 : Esperando a hacer check in...
+pasajero #1 : Nro pasaje: #0     / aerolinea #2          / terminal 2    / puerta embarque 18
+pasajero #5 : Esperando a hacer check in...
+pasajero #9 : Nro pasaje: #0     / aerolinea #2          / terminal 1    / puerta embarque 24
+pasajero #7 : Esperando a hacer check in...
+pasajero #8 : Esperando a hacer check in...
+pasajero #0 : Esperando en la fila del puesto de atencion ...
+pasajero #2 : Esperando en la fila del puesto de atencion ...
+pasajero #1 : Esperando a hacer check in...
+pasajero #1 : Esperando en la fila del puesto de atencion ...
+pasajero #5 : Esperando en la fila del puesto de atencion ...
+pasajero #9 : Esperando a hacer check in...
+pasajero #7 : Esperando en la fila del puesto de atencion ...
+pasajero #8 : Esperando en la fila del puesto de atencion ...
+Reloj :  hora: 8
+Reloj :  hora: 9
+Reloj :  hora: 10
+Reloj :  hora: 11
+pasajero #4 : Realizo el chek in...
+pasajero #6 : Realizo el chek in...
+pasajero #6 : Esperando a entrar al vagon...
+pasajero #4 : Esperando a entrar al vagon...
+pasajero #3 : Realizo el chek in...
+pasajero #1 : Realizo el chek in...
+pasajero #1 : Esperando a entrar al vagon...
+pasajero #0 : Realizo el chek in...
+pasajero #2 : Realizo el chek in...
+pasajero #2 : Esperando a entrar al vagon...
+pasajero #5 : Realizo el chek in...
+pasajero #8 : Realizo el chek in...
+pasajero #3 : Esperando a entrar al vagon...
+pasajero #7 : Realizo el chek in...
+pasajero #0 : Esperando a entrar al vagon...
+pasajero #5 : Esperando a entrar al vagon...
+pasajero #8 : Esperando a entrar al vagon...
+pasajero #7 : Esperando a entrar al vagon...
+El vagon parte de la estacion...
+pasajero #0 : Esparando a bajar. Terminal 1
+Conductor : Comenzando viaje ...
+pasajero #1 : Esparando a bajar. Terminal 2
+pasajero #6 : Esparando a bajar. Terminal 2
+pasajero #4 : Esparando a bajar. Terminal 1
+pasajero #2 : Esparando a bajar. Terminal 0
+pasajero #3 : Esparando a bajar. Terminal 2
+pasajero #9 : Esperando en la fila del puesto de atencion ...
+Conductor : Parando en terminal :0
+Conductor : Saliendo a la siguiente terminal...
+pasajero #2 : Bajando en la terminal: 0
 pasajero #2 : Entrando al free shop de la terminal 0...
-pasajero #0 : Nro pasaje: #0 / aerolinea #1 / terminal 0 / puerta embarque 27
-pasajero #16 : Nro pasaje: #16 / aerolinea #0 / terminal 2 / puerta embarque 24
-pasajero #12 : Nro pasaje: #12 / aerolinea #1 / terminal 0 / puerta embarque 12
-pasajero #12 : saliendo del freeshop...
-pasajero #10 : Nro pasaje: #10 / aerolinea #0 / terminal 2 / puerta embarque 21
-pasajero #6 : Nro pasaje: #6 / aerolinea #1 / terminal 0 / puerta embarque 9
-pasajero #6 : saliendo del freeshop...
-pasajero #5 : Nro pasaje: #5 / aerolinea #1 / terminal 2 / puerta embarque 27
-pasajero #13 : Nro pasaje: #13 / aerolinea #1 / terminal 0 / puerta embarque 15
-pasajero #13 : saliendo del freeshop...
-pasajero #19 : saliendo del freeshop...
-pasajero #7 : saliendo del freeshop...
-pasajero #3 : Comprando ...
-pasajero #17 : Comprando ...
+Conductor : Parando en terminal :1
+Conductor : Saliendo a la siguiente terminal...
+pasajero #0 : Bajando en la terminal: 1
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #4 : Bajando en la terminal: 1
+pasajero #4 : Entrando al free shop de la terminal 1...
+Conductor : Parando en terminal :2
+Conductor : Saliendo a la siguiente terminal...
+pasajero #1 : Bajando en la terminal: 2
+pasajero #1 : Entrando al free shop de la terminal 2...
+pasajero #6 : Bajando en la terminal: 2
+pasajero #2 : Esperando en la terminal
+pasajero #6 : Entrando al free shop de la terminal 2...
+pasajero #3 : Bajando en la terminal: 2
+pasajero #3 : Esperando en la terminal
+pasajero #0 : Comprando ...
+Conductor : Finalizando viaje...
+pasajero #4 : Esperando en la terminal
+Conductor : Volviendo a terminal...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #1 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #1 : Entrando al free shop de la terminal 2...
+pasajero #2 : Esperando en la terminal
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #6 : Entrando al free shop de la terminal 2...
+pasajero #3 : esperando para entrar al freeshop...
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #1 : Comprando ...
+pasajero #0 : Esperando en la terminal
+pasajero #4 : Comprando ...
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #6 : Comprando ...
+pasajero #3 : Esperando en la terminal
+pasajero #1 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+Reloj :  hora: 12
 pasajero #2 : Comprando ...
-pasajero #3 : saliendo del freeshop...
-pasajero #17 : saliendo del freeshop...
-pasajero #2 : saliendo del freeshop...
+pasajero #1 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #2 : Esperando en la terminal
+pasajero #1 : Entrando al free shop de la terminal 2...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #6 : esperando para entrar al freeshop...
+pasajero #6 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #3 : Esperando en la terminal
+pasajero #6 : esperando para entrar al freeshop...
+pasajero #6 : Esperando en la terminal
+pasajero #1 : Comprando ...
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #6 : Esperando en la terminal
+pasajero #2 : Comprando ...
+pasajero #0 : Esperando en la terminal
+pasajero #4 : Comprando ...
+pasajero #1 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #1 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Comprando ...
+pasajero #6 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #1 : Entrando al free shop de la terminal 2...
+pasajero #3 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #3 : Esperando en la terminal
+pasajero #6 : Entrando al free shop de la terminal 2...
+pasajero #2 : Comprando ...
+pasajero #0 : Comprando ...
+pasajero #1 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Comprando ...
+pasajero #1 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #6 : Comprando ...
+Reloj :  hora: 13
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #1 : esta embarcando en la terminal: 2 puerta de embarque: 18
+pasajero #3 : Esperando en la terminal
+pasajero #6 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #6 : esta embarcando en la terminal: 2 puerta de embarque: 15
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Comprando ...
+pasajero #3 : Comprando ...
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #0 : Esperando en la terminal
+pasajero #2 : Comprando ...
+pasajero #4 : Comprando ...
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #3 : Comprando ...
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+Reloj :  hora: 14
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Comprando ...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #2 : Comprando ...
+pasajero #3 : Esperando en la terminal
+Reloj :  hora: 15
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #9 : Realizo el chek in...
+pasajero #9 : Esperando a entrar al vagon...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Comprando ...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #2 : Comprando ...
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Comprando ...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #0 : Entrando al free shop de la terminal 1...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Comprando ...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #3 : Esperando en la terminal
+pasajero #0 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+Reloj :  hora: 16
+pasajero #4 : Esperando en la terminal
+pasajero #0 : esta embarcando en la terminal: 1 puerta de embarque: 21
+pasajero #2 : Comprando ...
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #4 : Comprando ...
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #3 : Entrando al free shop de la terminal 2...
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+Reloj :  hora: 17
+pasajero #4 : Esperando en la terminal
+pasajero #3 : Esperando en la terminal
+pasajero #2 : Comprando ...
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #3 : esta embarcando en la terminal: 2 puerta de embarque: 15
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Entrando al free shop de la terminal 0...
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Comprando ...
+pasajero #4 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Entrando al free shop de la terminal 1...
+pasajero #2 : Esperando en la terminal
+pasajero #2 : Esperando en la terminal
+pasajero #4 : Esperando en la terminal
+Reloj :  hora: 18
+pasajero #2 : esta embarcando en la terminal: 0 puerta de embarque: 18
+pasajero #4 : esta embarcando en la terminal: 1 puerta de embarque: 15
+Reloj :  hora: 19
+Reloj :  hora: 20
+Reloj :  hora: 21
+Reloj :  hora: 22
+Reloj :  hora: 23
+Reloj :  hora: 0
+Reloj :  hora: 1
+Reloj :  hora: 2
+Reloj :  hora: 3
+Reloj :  hora: 4
+Reloj :  hora: 5
+Reloj :  hora: 6
+Reloj :  hora: 7
 Reloj :  hora: 8
 Reloj :  hora: 9
 Reloj :  hora: 10
@@ -199,3 +418,21 @@ Reloj :  hora: 12
 Reloj :  hora: 13
 Reloj :  hora: 14
 Reloj :  hora: 15
+Reloj :  hora: 16
+Reloj :  hora: 17
+Reloj :  hora: 18
+Reloj :  hora: 19
+Reloj :  hora: 20
+Reloj :  hora: 21
+Reloj :  hora: 22
+Reloj :  hora: 23
+Reloj :  hora: 0
+Reloj :  hora: 1
+Reloj :  hora: 2
+Reloj :  hora: 3
+Reloj :  hora: 4
+Reloj :  hora: 5
+Reloj :  hora: 6
+Reloj :  hora: 7
+Reloj :  hora: 8
+Reloj :  hora: 9

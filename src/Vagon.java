@@ -1,4 +1,4 @@
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -9,20 +9,23 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Vagon {
     private Lock mutex = new ReentrantLock();
-    private Condition pasajeros;
     private Condition conductor;
-    private int cantidadLugares;
-    private int cantidadLugaresLibres;
+    private int CANTIDAD_LUGARES;
     private boolean[] paradas;
     private int[] pasajerosPorParada;
 
-    public Vagon(int cantidadLugares, int terminales){
-        this.cantidadLugaresLibres = 0;
-        this.cantidadLugares = cantidadLugares;
+    private Condition[] paradasWait;
 
-        this.pasajeros = mutex.newCondition();
+    private CyclicBarrier barrier;
+    private boolean conduccion;
+
+    public Vagon(int cantidadLugares, int terminales){
+        
+        this.CANTIDAD_LUGARES = cantidadLugares;
         this.conductor = mutex.newCondition();
 
+        this.conduccion = false;
+        
         this.paradas = new boolean[terminales];
         for (int i = 0; i < paradas.length; i++) {
             paradas[i] = false;
@@ -32,68 +35,53 @@ public class Vagon {
         for (int i = 0; i < pasajerosPorParada.length; i++) {
             pasajerosPorParada[i] = 0;
         }
+
+        paradasWait = new Condition[terminales];
+        for(int k = 0; k < paradasWait.length; k++){
+            paradasWait[k] = mutex.newCondition();
+        }
+
+        barrier = new CyclicBarrier(CANTIDAD_LUGARES,() -> {
+            // Este código se ejecuta cuando todos los hilos llegan a la barrera
+            System.out.println("El vagon parte de la estacion...");
+        });
     }
 
     public void entradaPasajero(int terminal)throws Exception{
+        barrier.await();
         this.mutex.lock();
-
-        //no hay lugares libre
-        while (cantidadLugaresLibres == cantidadLugares) {
-            helper.ThreadMsg("Esperando a entrar al vagon...");
-            this.pasajeros.await();
-        }
-        this.cantidadLugaresLibres ++;
-        //incrementamos la cantidad de pasajeros para la parada
-        this.pasajerosPorParada[terminal] ++;
+        this.conduccion = true;
+        this.conductor.signal();
         //evaluamos si tenemos que bajar en una terminal
-        //notificamos al chofer
-        this.conductor.signal();
-        while(!this.paradas[terminal] && this.pasajerosPorParada[terminal] > 0){
-            helper.ThreadMsg("Esperando a bajar. Pasajero restantes para la parada de la terminal " +terminal+ " "+this.pasajerosPorParada[terminal]+" | cantidad de pasajeros restantes: "+this.cantidadLugares);
-            this.pasajeros.await();
+        while(!this.paradas[terminal]){
+            helper.ThreadMsg("Esparando a bajar. Terminal "+terminal);
+            this.paradasWait[terminal].await();
         }
-        //bajamos en la terminal indicada
-        this.pasajerosPorParada[terminal]--;
-        helper.ThreadMsg("Bajando en la estacion "+terminal+". pasajeros restantes"+this.pasajerosPorParada[terminal]);
-        this.conductor.signal();
-
+        helper.ThreadMsg("Bajando en la terminal: "+terminal);
         this.mutex.unlock();
     }
 
-    public void conductor()throws Exception{
+    public void comenzarConduccion()throws Exception{
         this.mutex.lock();
-
-        while(this.cantidadLugaresLibres < this.cantidadLugares){
-            this.pasajeros.signalAll();
+        while(!conduccion){
             this.conductor.await();
         }
-        helper.ThreadMsg("Empenzando el recorrido...");
-        //comenzamos el recorrido
-        int i = 0;
-        //si no terminamos de recorrer las paradas o estan bajando pasajeros esperamos
-        while(i < this.paradas.length ){
-            //recorremos cada terminal
-            helper.ThreadMsg("Saliendo a la estacion "+i+" ... ");
-            Thread.sleep(2000);
-            this.paradas[i] = true;
-            //mientras tengamos pasajeros que tienen que bajar en esta parada esperamos
-            while(this.pasajerosPorParada[i] > 0){
-                    helper.ThreadMsg("Esperando a que los pasajeros de la terminal "+i+" bajen en su parada...");
-                    this.pasajeros.signalAll();
-                    this.conductor.await();
-            }
-            //avanzamos a la siguiente terminal
-            i++;
-        }
-        helper.ThreadMsg("Regresando a la estacion...");
-        //reseteamos la cantidad de lugares.
-        this.cantidadLugaresLibres = 0;
+        this.mutex.unlock();
+    }
+
+    public void pararTerminal(int i )throws InterruptedException{
+        this.mutex.lock();
+        this.paradasWait[i].signalAll();
+        this.paradas[i] = true;
+        this.mutex.unlock();
+    }
+
+    public void finalizarViaje()throws InterruptedException{
+        this.mutex.lock();
         for (int j = 0; j < paradas.length; j++) {
             paradas[j] = false;
         }
-        Thread.sleep(2000);
-        helper.ThreadMsg("paradas: "+this.paradas.length+" ; cantidad por paradas: "+this.pasajerosPorParada.length);
-        this.pasajeros.signalAll();
+        this.conduccion = false;
         this.mutex.unlock();
     }
 }

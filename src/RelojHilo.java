@@ -15,7 +15,7 @@ public class RelojHilo implements Runnable{
         try {
             while(true){
                 this.reloj.actualizarHora();
-                this.boleteria.notificarPasajeros();
+                this.boleteria.abrirBoleteria();
                 Thread.sleep(1000);
             }
         } catch (Exception e) {
