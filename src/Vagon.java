@@ -10,6 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Vagon {
     private Lock mutex = new ReentrantLock();
     private Condition conductor;
+    private Condition pasajerosEspera;
     private int CANTIDAD_LUGARES;
     private boolean[] paradas;
     private int[] pasajerosPorParada;
@@ -23,6 +24,7 @@ public class Vagon {
         
         this.CANTIDAD_LUGARES = cantidadLugares;
         this.conductor = mutex.newCondition();
+        this.pasajerosEspera = mutex.newCondition();
 
         this.conduccion = false;
         
@@ -48,7 +50,15 @@ public class Vagon {
     }
 
     public void entradaPasajero(int terminal)throws Exception{
+        //si el vagon esta en viaje esperaran
+        this.mutex.lock();
+        while(this.conduccion){
+            this.pasajerosEspera.await();
+        }
+        this.mutex.unlock();
+        
         barrier.await();
+        
         this.mutex.lock();
         this.conduccion = true;
         this.conductor.signal();
@@ -71,8 +81,8 @@ public class Vagon {
 
     public void pararTerminal(int i )throws InterruptedException{
         this.mutex.lock();
-        this.paradasWait[i].signalAll();
         this.paradas[i] = true;
+        this.paradasWait[i].signalAll();
         this.mutex.unlock();
     }
 
@@ -82,6 +92,7 @@ public class Vagon {
             paradas[j] = false;
         }
         this.conduccion = false;
+        this.pasajerosEspera.signalAll();
         this.mutex.unlock();
     }
 }
