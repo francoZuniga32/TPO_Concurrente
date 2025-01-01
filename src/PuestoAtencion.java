@@ -1,9 +1,3 @@
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
-
 /**
  * los puestos de atencion es donde los pasajeros hacer check-in de los pasajes
  * tiene una capacidad maxima de personas y un guardar es el encargado de dejar pasar a los pasajeros

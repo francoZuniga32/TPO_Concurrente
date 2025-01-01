@@ -2,7 +2,6 @@ public class Pasaje {
     private int nroPasaje;
     private int aerolinea;
     private int hora;
-    private Reloj reloj;
     private int puertaEmbarque;
     private int terminal;
 

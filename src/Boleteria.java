@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.concurrent.Exchanger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -14,11 +13,8 @@ public class Boleteria {
     private final Lock mutex = new ReentrantLock();
     private final Condition pasajeros;
     private final Condition boletero;
-    private int horaAtencion;
     private int cantidadTerminales;
     private Reloj reloj;
-
-    private Exchanger<Pasaje> pasajeChange;
 
     public Boleteria(int cantidadAerolineas, int cantidadTerminales, Reloj reloj){
         this.aerolineas = cantidadAerolineas;
@@ -27,10 +23,7 @@ public class Boleteria {
         this.pasajeros = mutex.newCondition();
         this.boletero = mutex.newCondition();
 
-        this.horaAtencion = 7;
         this.reloj = reloj;
-
-        pasajeChange = new Exchanger<Pasaje>();
     }
 
     public synchronized void abrirBoleteria()throws InterruptedException{
